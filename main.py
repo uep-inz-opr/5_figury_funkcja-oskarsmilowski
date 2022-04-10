@@ -17,6 +17,7 @@ def main():
         liczba_figur = int(input())
     except ValueError:
         print("Błąd: można podać maksymalnie 3 liczby")
+        return
     figury = []
     for _ in range(liczba_figur):
         figura = input()
