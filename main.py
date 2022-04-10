@@ -14,10 +14,7 @@ def licz_pole(*args):
 
 def main():
     liczba_figur = input()
-    try:
-        licbza_figur = int(liczba_figur)
-    except:
-        raise ValueError("Błąd: można podać maksymalnie 3 liczby")
+    liczba_figur = int(liczba_figur)
     figury = []
     for _ in range(liczba_figur):
         figura = input()
