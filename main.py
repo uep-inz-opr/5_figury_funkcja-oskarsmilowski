@@ -23,6 +23,7 @@ def main():
         figura = input()
         figury.append(figura)
     wynik = 0.0
+    print(f'Figury to: {figury}')
 
     for figura in figury:
         figura = figura.split(' ')
