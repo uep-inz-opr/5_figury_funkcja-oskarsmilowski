@@ -14,12 +14,12 @@ def licz_pole(*args):
 
 def main():
     try:
-        liczba_figur = int(input())
+        liczba_figur = float(input())
     except ValueError:
         print("Błąd: można podać maksymalnie 3 liczby")
         return
     figury = []
-    for _ in range(liczba_figur):
+    for _ in range(int(liczba_figur)):
         figura = input()
         figury.append(figura)
     wynik = 0.0
